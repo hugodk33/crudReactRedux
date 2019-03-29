@@ -1,0 +1,16 @@
+{
+  "name": "simple-test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/json-server --watch db.json --middlewares validations.js events.js --static static"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.0",
+    "socket.io": "^2.1.1"
+  }
+}

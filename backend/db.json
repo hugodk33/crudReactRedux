@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "Frios",
+      "parentId": null,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Carnes",
+      "parentId": 1
+    },
+    {
+      "id": 3,
+      "name": "Carnes bovinas",
+      "parentId": 2
+    },
+    {
+      "id": 4,
+      "name": "Carnes suínas",
+      "parentId": 2
+    },
+    {
+      "id": 5,
+      "name": "Bebidas",
+      "parentId": null
+    },
+    {
+      "id": 6,
+      "name": "Bebidas quentes",
+      "parentId": 5
+    },
+    {
+      "id": 7,
+      "name": "Bebidas frias",
+      "parentId": 5
+    },
+    {
+      "name": "Picanha",
+      "parentId": 3,
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    Abra o console
+    <script src="http://localhost:3001/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://localhost:3001', { reconnect: true });
+        socket.on('CATEGORY_CREATED', function (data) {
+            console.log('CATEGORY_CREATED', data);
+        });
+        socket.on('CATEGORY_UPDATED', function (data) {
+            console.log('CATEGORY_UPDATED', data);
+        });
+        socket.on('CATEGORY_DELETED', function (data) {
+            console.log('CATEGORY_DELETED', data);
+        });
+    </script>
+</body>
+
+</html>
